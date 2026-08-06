@@ -70,6 +70,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Stelle totali",
 			"kr":    "총 스타",
 			"ja":    "スター合計",
+			"fr":    "Total d'étoiles",
 			"pt-br": "Total de estrelas",
 		},
 		"statcard.commits": {
@@ -81,6 +82,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Commit",
 			"kr":    "커밋",
 			"ja":    "コミット",
+			"fr":    "Commits",
 			"pt-br": "Commits",
 		},
 		"statcard.prs": {
@@ -92,6 +94,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "PR",
 			"kr":    "PR",
 			"ja":    "PR",
+			"fr":    "PRs",
 			"pt-br": "PRs",
 		},
 		"statcard.prs-merged": {
@@ -103,6 +106,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "PR uniti",
 			"kr":    "병합된 PR",
 			"ja":    "マージ済み PR",
+			"fr":    "PR fusionnés",
 			"pt-br": "PRs mergeados",
 		},
 		"statcard.prs-merged-percentage": {
@@ -114,6 +118,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "PR uniti",
 			"kr":    "병합된 PR",
 			"ja":    "マージ済み PR",
+			"fr":    "PR fusionnés",
 			"pt-br": "PRs mergeados",
 		},
 		"statcard.reviews": {
@@ -125,6 +130,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Revisioni",
 			"kr":    "리뷰",
 			"ja":    "レビュー",
+			"fr":    "Éxaminations",
 			"pt-br": "Reviews",
 		},
 		"statcard.issues": {
@@ -136,6 +142,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Issue",
 			"kr":    "이슈",
 			"ja":    "イシュー",
+			"fr":    "Issues",
 			"pt-br": "Issues",
 		},
 		"statcard.discussions-started": {
@@ -147,6 +154,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Discussioni avviate",
 			"kr":    "시작한 토론",
 			"ja":    "開始したディスカッション",
+			"fr":    "Discussions lancées",
 			"pt-br": "Discussões iniciadas",
 		},
 		"statcard.discussions-answered": {
@@ -158,6 +166,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Discussioni risposte",
 			"kr":    "답변한 토론",
 			"ja":    "回答したディスカッション",
+			"fr":    "Discussions répondues",
 			"pt-br": "Discussões respondidas",
 		},
 		"statcard.contribs": {
@@ -169,6 +178,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Contribuito a",
 			"kr":    "기여한 저장소",
 			"ja":    "コントリビュート",
+			"fr":    "Contribué à",
 			"pt-br": "Contribuiu para",
 		},
 		"statcard.title": {
@@ -180,6 +190,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Statistiche GitHub",
 			"kr":    "GitHub 통계",
 			"ja":    "GitHub 統計",
+			"fr":    "Statistiques GitHub",
 			"pt-br": "Estatísticas do GitHub",
 		},
 		"statcard.ranktitle": {
@@ -191,6 +202,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Classifica GitHub",
 			"kr":    "GitHub 순위",
 			"ja":    "GitHub ランク",
+			"fr":    "Classement GitHub",
 			"pt-br": "Classificação do GitHub",
 		},
 		"wakatimecard.lastyear": {
@@ -202,6 +214,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "quest'anno",
 			"kr":    "올해",
 			"ja":    "今年",
+			"fr":    "cette année",
 			"pt-br": "ano passado",
 		},
 		"wakatimecard.last7days": {
@@ -213,6 +226,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "ultimi 7 giorni",
 			"kr":    "최근 7일",
 			"ja":    "過去7日間",
+			"fr":    "les 7 derniers jours",
 			"pt-br": "últimos 7 dias",
 		},
 		"wakatimecard.nocodingactivity": {
@@ -224,6 +238,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Nessuna attività in questa settimana",
 			"kr":    "이번 주 코딩 활동 없음",
 			"ja":    "今週のコーディング活動はありません",
+			"fr":    "Aucune activité de codage cette semaine",
 			"pt-br": "Nenhuma atividade de codificação esta semana",
 		},
 		"wakatimecard.nocodedetails": {
@@ -235,6 +250,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Nessuna attività in questa settimana",
 			"kr":    "이번 주 코딩 활동 없음",
 			"ja":    "今週のコーディング活動はありません",
+			"fr":    "Aucune activité de codage cette semaine",
 			"pt-br": "Nenhuma atividade de codificação esta semana",
 		},
 		"wakatimecard.notpublic": {
@@ -246,6 +262,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "L'utente non condivide pubblicamente statistiche dettagliate del codice",
 			"kr":    "사용자가 공개적으로 상세한 코드 통계를 공유하지 않음",
 			"ja":    "ユーザーは公開的に詳細なコード統計を共有していません",
+			"fr":    "L'utilisateur ne partage pas publiquement des statistiques de code détaillées",
 			"pt-br": "O usuário não compartilha publicamente estatísticas detalhadas de código",
 		},
 		"repocard.archived": {
@@ -257,6 +274,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Archiviato",
 			"kr":    "보관됨",
 			"ja":    "アーカイブ済み",
+			"fr":    "Archivé",
 			"pt-br": "Arquivado",
 		},
 		"repocard.template": {
@@ -268,6 +286,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Modello",
 			"kr":    "템플릿",
 			"ja":    "テンプレート",
+			"fr":    "Modèle",
 			"pt-br": "Modelo",
 		},
 		"langcard.title": {
@@ -279,6 +298,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Linguaggi più usati",
 			"kr":    "가장 많이 사용한 언어",
 			"ja":    "最も使用された言語",
+			"fr":    "Langages les plus utilisés",
 			"pt-br": "Linguagens mais usadas",
 		},
 		"wakatimecard.title": {
@@ -290,6 +310,7 @@ func getTranslations() map[string]map[string]string {
 			"it":    "Statistiche WakaTime",
 			"kr":    "WakaTime 통계",
 			"ja":    "WakaTime 統計",
+			"fr":    "Statistiques WakaTime",
 			"pt-br": "Estatísticas do WakaTime",
 		},
 	}
