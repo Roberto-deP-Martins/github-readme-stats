@@ -215,7 +215,7 @@ func getTranslations() map[string]map[string]string {
 			"kr":    "올해",
 			"ja":    "今年",
 			"fr":    "cette année",
-			"pt-br": "ano passado",
+			"pt-br": "este ano",
 		},
 		"wakatimecard.last7days": {
 			"en":    "last 7 days",

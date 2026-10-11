@@ -69,6 +69,14 @@ Here are some examples of what you can create with this project:
 
 ### Top Languages Card
 
+**Brazilian Portuguese:**
+```markdown
+![Linguagens mais usadas](http://localhost:9000/api/top-langs?username=yourname&locale=pt-br)
+![Linguagens mais usadas (compacto)](http://localhost:9000/api/top-langs?username=yourname&locale=pt-br&layout=compact)
+```
+
+Use `locale=pt-br` with the stats, repository pin, and WakaTime endpoints as well.
+
 **Basic:**
 ```markdown
 ![Top Languages](http://localhost:9000/api/top-langs?username=yourname)
