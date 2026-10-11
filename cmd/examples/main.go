@@ -293,7 +293,7 @@ Options:
 
 Available Examples:
 
-`, os.Args[0], os.Args[0], os.Args[0])
+`, os.Args[0], os.Args[0], os.Args[0], os.Args[0])
 
 	printAvailableExamples(getAllExamples())
 	fmt.Fprintf(os.Stderr, `
