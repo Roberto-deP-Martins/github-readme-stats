@@ -81,6 +81,14 @@ Here are some examples of what you can create with this project:
 ```
 ![Top Languages Compact](.github/assets/top-langs-compact.svg)
 
+**Brazilian Portuguese:**
+```markdown
+![Linguagens mais usadas](http://localhost:9000/api/top-langs?username=yourname&locale=pt-br)
+![Linguagens mais usadas (compacto)](http://localhost:9000/api/top-langs?username=yourname&locale=pt-br&layout=compact)
+```
+
+Use `locale=pt-br` with the stats, repository pin, and WakaTime endpoints as well.
+
 ### Gist Card
 
 ```markdown
