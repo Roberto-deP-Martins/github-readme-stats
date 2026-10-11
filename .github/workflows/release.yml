@@ -86,7 +86,7 @@ jobs:
           find . -type f -name 'github-readme-stats-*' -exec sha256sum {} \; > checksums.txt
 
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2.6.2
         with:
           files: |
             artifacts/**
@@ -150,3 +150,23 @@ jobs:
           platforms: linux/amd64,linux/arm64
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+  report_release:
+    name: Dispatch verified release reports
+    needs: create-release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - name: Request reports for the released tag
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          gh workflow run go-quality-reports.yml --repo "$REPOSITORY" --ref "$DEFAULT_BRANCH" \
+            -f "source_ref=refs/tags/$RELEASE_TAG" -f reuse_existing_tag_report=true
